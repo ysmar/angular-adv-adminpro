@@ -12,13 +12,13 @@ import { HeaderComponent } from './header/header.component';
     SidebarComponent,
     HeaderComponent,
   ],
-  imports: [
-    CommonModule
-  ],
   exports: [
     BreadcrumbsComponent,
     SidebarComponent,
     HeaderComponent,
+  ],
+  imports: [
+    CommonModule
   ]
 })
 export class SharedModule { }
